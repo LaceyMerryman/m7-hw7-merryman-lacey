@@ -25,8 +25,12 @@ h1 {
   font-size: 2.5rem;
 }
 
-h1 > p::first-letter {
-  text-size-adjust: 20px;
+article > h1 > p::first-letter {
+  font-size: 3rem;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+  line-height: 1;
 }
 
 h1, h2 {
