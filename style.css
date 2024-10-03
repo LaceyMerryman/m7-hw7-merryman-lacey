@@ -155,6 +155,10 @@ span.tooltip:hover > span,
 span.tooltip:focus > span {
   display: inline;
   visibility: visible;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 /* styling for tooltip bubble */
