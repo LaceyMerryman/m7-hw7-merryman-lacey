@@ -79,7 +79,6 @@ main > section, main > article {
 }
 
 main > section.hero {
-  position: sticky;
   height: 300px;
   background-image: url(https://picsum.photos/1920/1000);
   background-size: cover;
@@ -89,10 +88,12 @@ main > section.hero {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  position: sticky;
   /* make this banner stick to the top! */
 }
 
 section.hero > .call-to-action {
+  position: sticky;
   font-size: 2rem;
   font-weight: 700;
   text-shadow: var(--white) 0px 0px 10px, var(--white) 0px 0px 20px, var(--gray) 2px 2px 2px;
@@ -101,6 +102,7 @@ section.hero > .call-to-action {
 }
 
 section.hero > button {
+  position: sticky;
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
