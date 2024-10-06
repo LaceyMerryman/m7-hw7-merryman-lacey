@@ -191,5 +191,12 @@ span.tooltip span {
 
 /* styling for tooltip bubble arrow */
 span.tooltip span::after {
-  content: "";
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
