@@ -155,6 +155,17 @@ span.tooltip:hover > span .tooltip-text,
 span.tooltip:focus > span .tooltip-text {
   display: inline;
   visibility: visible;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background-color: grey;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .tooltip-text {
@@ -163,8 +174,8 @@ span.tooltip:focus > span .tooltip-text {
   left: 50%;
   transform: translateX(-50%);
   padding: 5px 10px;
-  background-color: lightgrey;
-  color: black;
+  background-color: grey;
+  color: white;
   font-size: 0.9rem;
   border-radius: 5px;
   white-space: nowrap;
@@ -175,6 +186,7 @@ span.tooltip:focus > span .tooltip-text {
 /* styling for tooltip bubble */
 span.tooltip span {
   display: none;
+  z-index: 1;
 }
 
 /* styling for tooltip bubble arrow */
