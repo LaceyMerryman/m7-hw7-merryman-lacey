@@ -170,20 +170,6 @@ span.tooltip:focus > span .tooltip-text {
   transition: opacity 0.2s ease-in-out;
 }
 
-.tooltip {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: gray;
-  color: white;
-  padding: 10px;
-  border-radius: 4px;
-  text-align: center;
-}
-
 .tooltip-text {
   visibility: visible;
   top: -30px;
